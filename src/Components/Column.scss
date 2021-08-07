@@ -1,0 +1,40 @@
+@import "../utilities.scss";
+
+.column{
+    display: inline-block;
+    width: 29%;
+    min-height: 120px;
+    border-right: 1px #e6e6e6 solid;
+    height: 96vh;
+    
+    .column_header{
+        width: 100%;
+        font-weight: bold;
+        border-bottom: 2px #e8e8e8 solid;
+        
+        padding: 10px;
+        font-size: 18px;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .header_name{
+            color: $ds-primary;
+        }
+        .header_count{
+            color: $ds-success;
+        }
+    }  
+    .column_body{
+        overflow-y: auto;
+        height: 100%
+    }
+}
+
+.end_column{
+    width: 13%;
+    border-right: none;
+    .column_header{
+        font-weight: 400;
+    }     
+}

@@ -1,0 +1,39 @@
+@import "./utilities.scss";
+
+/* width */
+body{
+
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d6d6d6;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $ds-primary ;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $ds-primary-dark ;; 
+}
+
+
+.App {
+  background-color: transparent;
+}
+
+.Toastify__toast-body {
+  margin: auto 0;
+  flex: 1 1 auto;
+  font-size: 14px;
+  text-transform: capitalize;
+}

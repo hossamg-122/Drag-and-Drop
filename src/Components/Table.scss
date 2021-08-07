@@ -1,0 +1,22 @@
+$ds-blue : #5587e2;
+.general_cont{
+    @media (max-width: 1150px) {
+        width: 1150px;
+    }
+
+    @media (min-width: 1700px) {
+        width: 1700px;
+    }
+
+   width: 100%;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+.columns_cont{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 96vh;
+}
